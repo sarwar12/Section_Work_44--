@@ -1,0 +1,76 @@
+/* _____1st Step______ */
+/* Medium Layout: 1200px */
+@media only screen and (min-width: 992px) and (max-width:1200px){
+	.hero-text h1 {color: red;}
+}
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width:991px){
+	.hero-text h1 {color: teal;}
+}
+/* Mobile Layout: 320px */
+@media only screen and (max-width:767px){
+	.hero-text h1 {color: yellow;}
+	.welcome-area {
+	height: auto;
+	}
+	.hero-area-table {
+	display: block;
+	height: auto;
+	}
+	.logo {
+	margin-bottom: 20px;
+	}
+	.logo, .mainmmenu{
+	text-align: center;
+	}
+	.copyright-area {
+	position: relative;
+	}
+	.copyright-area, .copyright-area ul {
+	text-align: center;
+	}
+	.copyright-area ul li {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	}
+	.hero-text {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	}
+}
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px)and (max-width:767px){
+	.hero-text h1 {color: green;}
+}
+
+
+
+/* _____2nd Step_____ */
+/* The given screen size or smaller */
+/* Large device Devices (Desktop ) */
+@media(max-width:1200px){}
+
+/* Medium Devices (tablets Phone) */
+@media(max-width:992px){}
+
+/* Small Devices (Landscape Phone) */
+@media(max-width:768px){}
+
+/* Extra Small Devices (Portrait Phone) */
+@media(max-width:576px){}
+
+
+
+/* _____3rd Step______ */
+/* Small Decives (Landscapr phone) */
+@media(min-width:576px){}
+
+/* Medium Decives (Tablet phone) */
+@media(min-width:768px){}
+
+/* Large Decives ( Desktops) */
+@media(min-width:992px){}
+
+/* Extra Large Decives (LArge Desktops)*/
+@media(min-width:1200px){}
